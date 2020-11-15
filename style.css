@@ -1,0 +1,199 @@
+body{
+    background-color: rgb(32, 31, 31);
+}
+
+#main{
+    min-width: 700px;
+    margin: 40px;
+    padding: 10px;
+    background-color:blueviolet;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 5px;
+    -o-border-radius:5px;
+}
+
+#inicio{
+    background-color:whitesmoke;
+    padding: 10px;
+}
+#pagina1{
+    background-color:violet;
+    padding: 10px;
+}
+#pagina2{
+    background-color: violet;
+    padding: 10px;
+}
+#contenido1{
+    background-color:violet;
+    padding: 10px;
+    width: 470px;
+    float: left;
+}
+#contenido2{
+    background-color:violet;
+    padding: 10px;
+    width: 475px;
+    float: right;
+}
+header{
+    text-align: center;
+    color: violet;
+    width: 100%;
+    font-size: 2em;
+    margin: 0px auto;
+    padding: 10px 13px;
+}
+footer{
+    text-align: center;
+    padding:8px 0px;
+}
+#k{
+    width: 100%;
+}
+#kk{
+    width: 100%;
+}
+#kkk{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+}
+p{
+    color: black;
+}
+code{
+    position: relative;
+    top: 120px;
+    left: ;
+}
+
+nav,#contenido{
+    min-width: 90px;
+    overflow: hidden;
+    margin: 10px;
+    padding: 5px;
+    background-color: violet;
+    flex: row;
+    text-align: center;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+}
+nav{
+    font-weight: bold;
+}
+nav #div1:hover,#div2:hover,#div3:hover{
+    color:blueviolet;
+}
+nav #div1{
+    float:left;
+    margin: 9px;
+    padding: 15px 50px;
+}
+nav #div2{
+    display: inline-block;
+    margin: 9px;
+    padding: 15px 50px;
+}
+nav #div3{
+    float:right;
+    margin: 9px;
+    padding: 15px 50px;
+}
+
+#contenido1{
+    padding: 8px;
+    float: left;
+    width: 43%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#contenido2{
+    padding: 8px;
+    float: right;
+    width: 43%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    color: violet;
+    width: 70%;
+    font-size: 2em;
+    margin: 0px auto;
+}
+
+@media screen and (max-width:700px){
+    #main{
+        background: black;
+        min-width: 50%;
+    }
+    #contenido1{
+        float: left;
+        width: auto;
+    }
+    #contenido2{
+        float: left;
+        width: auto;
+    }
+    header{
+        color: black;
+    }
+
+    nav #div1:hover,#div2:hover,#div3:hover{
+        color: black;
+    }
+    #div1{
+
+        float: left;
+        width: auto;
+    }
+    #div2{
+
+        float: left;
+        width: auto;
+    }
+    #div3{
+
+        float: left;
+        width: auto;
+    }
+}
+@media screen and (max-width:510px){
+    #main{
+        background: silver;
+        min-width: 20%;
+    }
+    #contenido1{
+        float: left;
+        width: auto;
+    }
+    #contenido2{
+        float: left;
+        width: auto;
+    }
+
+    nav #div1:hover,#div2:hover,#div3:hover{
+        color: silver;
+    }
+    nav #div1{
+        padding: 10px 50px;
+        float: none;
+        width: 48%;
+    }
+    nav #div2{
+        padding: 10px 50px;
+        float: none;
+        text-align: left;
+        width: 32%;
+    }
+    nav #div3{
+        padding: 10px 50px;
+        width: 48%;
+        float: none;
+    }
+}
